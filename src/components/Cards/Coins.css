@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.miCardBody {
+  background-color: rgb(26, 26, 26);
+  color: rgb(225, 223, 223);
+}
+
+.centrarDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 600;
+  background-color: rgb(141, 137, 134);
+  padding: 70px; 
+}
+.personalCard {
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  animation-name: movimiento-salida;
+  animation-duration: 1.5s;
+
+}
+
+@keyframes movimiento-salida {
+  0% {
+    top: 500px;
+    opacity: 0%;
+  }
+  100% {
+    top: 0px;
+    opacity:100%
+  }
+}
+
+.imagenPersonalizada {
+  padding: 10px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.infoCard {
+  text-align: start;
+  padding: 3px;
+}
+
+.containerCardsPersonalizado {
+  padding-top: 50px;
+  z-index: 2;
+  align-items: center;
+}
+.dinero {
+  margin-top: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(90, 182, 144);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.miCardFooter {
+  text-align: center;
+}
+
+.letraColor {
+  color: rgb(255, 145, 0);
+  font-size: 40px;
+}
+.iconoColor {
+  color: rgb(255, 145, 0);
+}
+
+.centrarNombre {
+  text-align: center;
+}
+
+.personalCard:hover .dinero {
+  background-color: rgb(255, 145, 0);
+  filter: drop-shadow(7px 7px 7px #222);
+}
+
+.personalCard:hover .imagenPersonalizada {
+  filter: drop-shadow(7px 7px 7px #222);
+}

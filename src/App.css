@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@colorSecundario: rgb(255, 145, 0);
+
+
+.App{
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+ background-size:500px;
+}
+.letraColorBlanco{
+  color: rgb(255, 255, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnPersonalizado{
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+
+}
+.letrasBoton{
+  color: rgb(0, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buscador{
+background-color: rgb(255, 255, 255);
+text-align: center;
+margin:10px;
+padding: 20px;
+height: 15px;
+border-radius: 13px;
+background: #ffffff;
+box-shadow: inset 7px 7px 14px #d9d9d9,
+            inset -7px -7px 14px #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.contenedorSearch{
+  width: 1100px;
+text-align: end;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  height: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.minav{
+  background-image: url('./img/fondoola.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  
 }
+
+.iconoBuscador{
+  height: 60px;
+}
+
+
+
+
+
+
