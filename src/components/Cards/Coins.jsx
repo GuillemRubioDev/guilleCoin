@@ -25,7 +25,7 @@ const Cards = ({ monedas, search }) => {
                             </div>
                             <Card.Body className="miCardBody">
                                 <div className='centrarNombre'>
-                                    <Card.Title><h2>{moneda.symbol.toUpperCase()}</h2></Card.Title>
+                                    <Card.Title><h2 className="colorMoneda">{moneda.symbol.toUpperCase()}</h2></Card.Title>
                                 </div>
                                 <Card.Text><b>{moneda.name.toUpperCase()}</b></Card.Text>
                                 <Card.Text><b>Change in 24h: <span className={moneda.price_change_percentage_24h > 0 ? "text-success" : "text-danger"}>{moneda.price_change_percentage_24h}</span>%</b></Card.Text>
