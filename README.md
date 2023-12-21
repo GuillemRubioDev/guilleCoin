@@ -47,7 +47,7 @@ Si tienes alguna pregunta o duda relacionada con la aplicación, no dudes en cre
 
 ## ▶️ Pruebala
 
-[![Deployed App](https://vercel.com/button)](https://guille-coin.vercel.app/)
+[![Pruebalo en Vercel](https://vercel.com/button)](https://guille-coin.vercel.app/)
 
 <!-- ## 🚀 Instrucciones de Despliegue
 
