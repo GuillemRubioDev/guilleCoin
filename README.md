@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# CryptoInfo - Tu guía para el mundo de las criptomonedas 🚀💰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a CryptoInfo, una aplicación de página única (SPA) desarrollada con React! Aquí podrás explorar información en tiempo real sobre criptomonedas y exchanges.
 
-## Available Scripts
+## 📱 Diseño Responsivo
 
-In the project directory, you can run:
+CryptoInfo ha sido desarrollada pensando en la experiencia del usuario en diferentes dispositivos, ya sea en tu computadora de escritorio, tableta o teléfono móvil.
 
-### `npm start`
+## 🚀 Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Información en Tiempo Real: Accede a datos actualizados sobre criptomonedas y exchanges utilizando la API pública de CoinGecko.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Detalles de las Criptomonedas: Obtén información detallada sobre cada criptomoneda, incluyendo su precio, cambio porcentual, capitalización de mercado y más.
 
-### `npm test`
+Lista de Exchanges: Explora la lista de exchanges y conoce sus detalles, volumen de operaciones y monedas listadas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Capturas de Pantalla
 
-### `npm run build`
+![Captura de Pantalla 1](/src/assets/captura1.png).
+![Captura de Pantalla 2](/src/assets/captura2.png).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Instalación y Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona este repositorio: `git clone https://github.com/GuillemRubioDev/guilleCoin.git`
+2. Instala las dependencias: `npm install`
+3. Inicia la aplicación: `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+¡Listo! Ahora puedes explorar CryptoInfo y aprender más sobre el emocionante mundo de las criptomonedas.
 
-### `npm run eject`
+## ⚡️ Tecnologías Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React: La interfaz de usuario de CryptoInfo está construida con React, facilitando la creación de una SPA interactiva.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+API CoinGecko: Utiliza la API pública de CoinGecko para obtener información en tiempo real sobre criptomonedas y exchanges.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contribuciones y Problemas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias, por favor, abre un issue.
 
-## Learn More
+## ⭐ ¡Dale una Estrella!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Si encuentras útil CryptoInfo, ¡no dudes en darle una estrella en GitHub!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ❓ ¿Preguntas o Dudas?
 
-### Code Splitting
+Si tienes alguna pregunta o duda relacionada con la aplicación, no dudes en crear un issue. Estoy aquí para ayudarte.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Instrucciones de Despliegue
 
-### Analyzing the Bundle Size
+Aquí encontrarás las instrucciones para desplegar la aplicación en Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clona este repositorio: `git clone https://github.com/GuillemRubioDev/guilleCoin.git`
+2. Instala las dependencias: `npm install`
+3. Configura las variables de entorno si es necesario.
+4. Despliega la aplicación en Vercel: [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/GuillemRubioDev/guilleCoin)
