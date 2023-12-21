@@ -45,13 +45,17 @@ Si encuentras útil CryptoInfo, ¡no dudes en darle una estrella en GitHub!
 
 Si tienes alguna pregunta o duda relacionada con la aplicación, no dudes en crear un issue. Estoy aquí para ayudarte.
 
-## 🚀 Instrucciones de Despliegue
+## ▶️ Pruebala
 
 [![Deployed App](https://vercel.com/button)](https://guille-coin.vercel.app/)
+
+<!-- ## 🚀 Instrucciones de Despliegue
+
+
 
 Aquí encontrarás las instrucciones para desplegar la aplicación en Vercel.
 
 1. Clona este repositorio: `git clone https://github.com/GuillemRubioDev/guilleCoin.git`
 2. Instala las dependencias: `npm install`
 3. Configura las variables de entorno si es necesario.
-4. Despliega la aplicación en Vercel: [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/GuillemRubioDev/guilleCoin)
+4. Despliega la aplicación en Vercel: [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/GuillemRubioDev/guilleCoin) -->
